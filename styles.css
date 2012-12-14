@@ -345,6 +345,21 @@ article.fill h3 {
   padding-right: 60px;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+
+  margin-top: 20px;
+
+  margin-left: 1.13em;
+}
+ol:first-child {
+  margin-top: 0;
+}
+ol ol {
+  margin-top: .5em;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -366,7 +381,7 @@ li {
 
   margin-bottom: .5em;
 }
-li::before {
+ul>li::before {
   content: '·';
 
   width: .75em;
